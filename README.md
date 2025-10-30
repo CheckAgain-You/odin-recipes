@@ -1,4 +1,4 @@
-This is the Odin Project Recipes project. The task is to create a website with an index page that contains linkes to several recipes.
+This is the Odin Project Recipes project. The task is to create a website with an index page that contains links to several recipes.
 
 Once I have completed this project, I will have demonstrated the following skills:
 
