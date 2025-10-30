@@ -8,4 +8,4 @@ Creating HTML docs, adding the HTML boilerplate from memory, and adding relative
 
 Adding images into documents with attribution.
 
-Creating ordered and unordered lists.
+Creating ordered and unordered lists, including lists of linked pages.
