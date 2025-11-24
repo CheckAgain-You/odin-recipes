@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+    background-color: #cbf5dd;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.title {
+    color: darkslateblue;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container {
+    background-color: whitesmoke;
+    color: black;
+    font-size: 18px;
+    font-family: Nunito, 'Courier New', Courier, monospace, sans-serif;
+    line-height: 30px;
+    text-align: justify;
+    padding: 30px;
+    border: 5px solid lightslategray;
+    margin: 155px;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
