@@ -1,12 +1,13 @@
 html {
     box-sizing: border-box;
-    background-color: #cbf5dd;
+    
 }
 
 *,
 *::before,
 *::after {
     box-sizing: inherit;
+    /* border: 1px solid red; */
 }
 
 .title {
@@ -16,18 +17,46 @@ html {
 }
 
 .container {
-    background-color: whitesmoke;
+    background-color: white;
     color: black;
     font-size: 18px;
-    font-family: Nunito, 'Courier New', Courier, monospace, sans-serif;
+    font-family: "Lucida sans", 'Courier New', Courier, monospace, sans-serif;
     line-height: 30px;
     text-align: justify;
     padding: 30px;
-    border: 5px solid lightslategray;
-    margin: 155px;
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .responsive {
     max-width: 100%;
     height: auto;
+}
+
+.header {
+    background-color: rgb(238, 213, 213);
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+
+.chapati,
+.beef,
+.kachumbari {
+    background-color: whitesmoke;
+    display: flex;
+    margin: 15px;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+    margin-top: 55px;
+    background-color: rgb(238, 213, 213);
 }
