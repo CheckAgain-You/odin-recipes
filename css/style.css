@@ -17,10 +17,10 @@ html {
 }
 
 .container {
-    background-color: white;
+    background-color: rgb(243, 243, 222);
     color: black;
-    font-size: 18px;
-    font-family: "Lucida sans", 'Courier New', Courier, monospace, sans-serif;
+    font-size: 20px;
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
     line-height: 30px;
     text-align: justify;
     padding: 30px;
@@ -35,10 +35,11 @@ html {
 }
 
 .header {
-    background-color: rgb(238, 213, 213);
+    background-color: #ceceee;
     display: flex;
     justify-content: center;
     padding: 100px;
+    font-size: larger;
 }
 
 
@@ -49,7 +50,17 @@ html {
     display: flex;
     margin: 15px;
     justify-content: space-around;
-    gap: 20px;
+    gap: 10px;
+}
+
+.image,
+.intro,
+.recipe-link {
+    flex: 1;
+}
+
+.image {
+    flex: 1 1 0;
 }
 
 .footer {
