@@ -9,3 +9,8 @@ Creating HTML docs, adding the HTML boilerplate from memory, and adding relative
 Adding images into documents with attribution.
 
 Creating ordered and unordered lists, including lists of linked pages.
+
+Using HTML to plan out a webpage completely, adding images, header and footer content before styling.
+
+Using CSS - the box model and flexbox - to position elements on a webpage.
+
